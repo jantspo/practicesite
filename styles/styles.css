@@ -1,0 +1,138 @@
+body{
+	font-family: helvetica;
+	background-color:white;
+	height: 100%;
+	width: 100%;
+	margin:0;
+}
+
+header{
+	width: 100%;
+	text-align: center;
+	background-color: #34dddd;
+	margin:0;
+	margin-top: -35px;
+	padding: 0;
+	border: 0;
+}
+
+h1{
+	color:white;
+	font-size: 50px;
+	margin-bottom: 0;
+}
+
+h2{
+	background-color: #34dddd;
+	border-radius: 5px;
+	border:solid 1px red;
+	padding: .5%;
+	margin-bottom: 0;
+	box-shadow: 5px 5px 5px;
+}
+
+p{
+	background-color: white;
+	border-radius: 5px;
+	border:solid 1px red;
+	padding: 1%;
+	margin-top: 0;
+	box-shadow: 5px 5px 5px;
+}
+
+p img{
+	float:right;
+}
+
+footer{
+	width: 77%;
+	height: 50px;
+	text-align: center;
+	background-color: white;
+	border:solid 1px black;
+	border-top: none;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -17px;
+	box-shadow: 5px 5px 5px;
+
+}
+
+footer ul{
+	margin-top: 0px;
+}
+
+footer ul li{
+	margin-top: 5px;
+	float:left;
+	list-style: none;
+}
+
+footer ul li a{
+	background: url(../images/socialicons.jpg);
+	height: 33px;
+	width: 33px;
+	display: inline-block;
+	text-indent: -99999px;
+	margin-left: 5px;
+}
+
+footer ul li:first-child a{
+	background-position: -86px 293px;
+}
+
+
+footer ul li:nth-child(2) a{
+	background-position: -989px 168px;
+}
+
+footer ul li:nth-child(3) a{
+	background-position: -86px 251px;
+}
+
+div#navbar a{
+	font-size: 22px;
+	color:#34dddd;
+	text-decoration: none;
+	position: relative;
+	padding-left: 10px;
+	top: 5px;
+}
+
+div#navbar a:hover{
+	color:white;
+}
+
+#navbar{
+
+	width: 100%;
+	display: inline-block;
+	height: 40px;
+	background: -webkit-linear-gradient(#9e5a5a,#ff9999); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#9e5a5a,#ff9999); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#9e5a5a,#ff9999); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#9e5a5a,#ff9999); /* Standard syntax */
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	border-top:solid 1px;
+	border-left: solid 1px;
+	border-right:solid 1px;;
+	box-shadow: 5px 5px 5px;
+}
+
+#container {
+	width:75%;
+	background-color: white;
+	border: 1px solid black;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding:1%;
+	border-top: solid 2px red;
+	box-shadow: 5px 0px 5px;
+}
+
+
